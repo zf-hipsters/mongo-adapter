@@ -1,0 +1,26 @@
+{
+    "name": "zf-hipsters/mongo-adapter",
+    "description": "MongoDB Abstract based on zfCommons",
+    "keywords": [
+        "framework",
+        "zf2",
+        "mongo",
+        "mongodb",
+        "zfcommons",
+        "dbabstract"
+    ],
+    "homepage": "https://github.com/zf-hipsters/mongo-adapter",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.2",
+        "zf-commons/zfc-base": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mongo": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
