@@ -61,11 +61,6 @@ class Connection
 
         if ($connectString == '') return false;
 
-        if ($connectString == '') {
-            die(
-                'hg'
-            );
-        }
         // Connect!
         $this->resource = new MongoClient($connectString, $options);
     }
